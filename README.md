@@ -11,7 +11,7 @@
 |------------|--------|
 | **Tytuł** | Weryfikacja konta użytkownika |
 | **Warunki początkowe** | Użytkownik przeszedł pomyślnie proces rejestracji i znajduje się na stronie weryfikacji konta. System wysłał kod weryfikacyjny na podany adres email. |
-| **Kroki testowe** | 1. Otwórz email i skopiuj kod weryfikacyjny<br>2. Wklej kod weryfikacyjny do pola input z napisem **Verification Code**<br>3. Naciśnij przycisk **Verify** |
+| **Kroki testowe** | 1. Otwórz skrzynkę pocztową i skopiuj kod weryfikacyjny<br>2. Wklej kod weryfikacyjny do pola input z napisem **Verification Code**<br>3. Naciśnij przycisk **Verify** |
 | **Oczekiwany rezultat** | System potwierdza weryfikację konta, a użytkownik może się zalogować. |
 
 
@@ -38,7 +38,7 @@
 |------------|--------|
 | **Tytuł** | Dodawanie komentarza pod postem |
 | **Warunki początkowe** | Użytkownik jest zalogowany na konto i znajduje się na stronie głównej aplikacji (**Home Page**) |
-| **Kroki testowe** | 1. Wybierz post, który chcesz skomentować<br>2. Pod wybranym postem wpisz treść komentarza<br>3. Naciśnij przycisk **Enter** lub kliknij myszką na ikonę symbolizującą przesyłanie postu |
+| **Kroki testowe** | 1. Wybierz post, który chcesz skomentować<br>2. Pod wybranym postem wpisz treść komentarza<br>3. Naciśnij przycisk **Enter** lub kliknij myszką na ikonę symbolizującą przesyłanie posta |
 | **Oczekiwany rezultat** | System zapisuje komentarz w bazie danych i przypisuje go do odpowiedniego posta. |
 
 
@@ -47,7 +47,7 @@
 |------------|--------|
 | **Tytuł** | Edycja posta |
 | **Warunki początkowe** | Użytkownik jest zalogowany na konto i znajduje się na stronie głównej aplikacji (**Home Page**) |
-| **Kroki testowe** | 1. Wybierz post, który chcesz edytować<br>2. Jeśli jesteś autorem postu lub administratorem, naciśnij ikonę symbolizującą edycję, która znajduje się w prawym dolnym rogu postu<br>3. *(Opcjonalnie)* Zmień treść posta<br>4. *(Opcjonalnie)* Zmień kategorię przypisaną do posta<br>5. Naciśnij przycisk **Update** |
+| **Kroki testowe** | 1. Wybierz post, który chcesz edytować<br>2. Jeśli jesteś autorem posta lub administratorem, naciśnij ikonę symbolizującą edycję, która znajduje się w prawym dolnym rogu posta<br>3. *(Opcjonalnie)* Zmień treść posta<br>4. *(Opcjonalnie)* Zmień kategorię przypisaną do posta<br>5. Naciśnij przycisk **Update** |
 | **Oczekiwany rezultat** | System aktualizuje treść oraz kategorię wybranego posta, a następnie zapisuje zaktualizowane dane w bazie danych. |
 
 
@@ -57,7 +57,7 @@
 |------------------|-----------------------------------------------------|
 | **Tytuł**        | Usuwanie posta                                      |
 | **Warunki początkowe** | Użytkownik jest **zalogowany na konto** i znajduje się na stronie głównej aplikacji **(Home Page)** |
-| **Kroki testowe** | 1. Wybierz post, który chcesz usunąć.<br>2. Jeśli jesteś autorem postu lub administratorem, naciśnij ikonę symbolizującą kosz, która znajduje się w prawym dolnym rogu postu. |
+| **Kroki testowe** | 1. Wybierz post, który chcesz usunąć.<br>2. Jeśli jesteś autorem posta lub administratorem, naciśnij ikonę symbolizującą kosz, która znajduje się w prawym dolnym rogu posta. |
 | **Oczekiwany rezultat** | System **usuwa wybrany post** z bazy danych. |
 
 ---
@@ -69,7 +69,7 @@
 |------------------|-----------------------------------------------------|
 | **Tytuł**        | Polubienie posta                                    |
 | **Warunki początkowe** | Użytkownik jest **zalogowany na konto** i znajduje się na stronie głównej aplikacji **(Home Page)** |
-| **Kroki testowe** | 1. Wybierz post, który chcesz polubić.<br>2. Naciśnij ikonę symbolizującą serce, która znajduje się w lewym dolnym rogu wybranego postu. |
+| **Kroki testowe** | 1. Wybierz post, który chcesz polubić.<br>2. Naciśnij ikonę symbolizującą serce, która znajduje się w lewym dolnym rogu wybranego posta. |
 | **Oczekiwany rezultat** | System **dodaje polubienie** do wybranego posta i zapisuje identyfikator tego posta w bazie danych, przypisanej do użytkownika, który dokonał polubienia. |
 
 
