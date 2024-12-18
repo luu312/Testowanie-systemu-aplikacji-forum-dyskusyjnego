@@ -89,6 +89,6 @@
 |------------------------|----------------------------------------------------------|
 | **Tytuł**             | Zmiana hasła użytkownika                                 |
 | **Warunki początkowe**| Użytkownik **znajduje się na stronie logowania**.        |
-| **Kroki testowe**     | 1. Kliknij na link **„Forgot Password?”**.<br>2. W polu **„Email”** wpisz swój adres e-mail.<br>3. Kliknij przycisk **„Send reset link”**.<br>4. Otwórz skrzynkę odbiorczą adresu e-mail podanego podczas rejestracji i kliknij link do resetowania hasła.<br>5. W polu **„New Password”** wpisz nowe hasło. |
+| **Kroki testowe**     | 1. Kliknij na link **Forgot Password?**.<br>2. W polu **Email** wpisz swój adres e-mail.<br>3. Kliknij przycisk **Send reset link**.<br>4. Otwórz skrzynkę odbiorczą adresu e-mail podanego podczas rejestracji i kliknij link do resetowania hasła.<br>5. W polu **New Password** wpisz nowe hasło. |
 | **Oczekiwany rezultat**| System **zmienia hasło użytkownika** i potwierdza udaną zmianę. |
 
