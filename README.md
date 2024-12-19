@@ -82,7 +82,7 @@
 | **Tytuł** | Polubienie posta |
 | **Warunki początkowe** | Użytkownik jest zalogowany na konto i znajduje się na stronie głównej aplikacji (**Home Page**) |
 | **Kroki testowe** | 1. Wybierz post, który chcesz polubić<br>2. Naciśnij ikonę serca |
-| **Oczekiwany rezultat** | Ikona serca zmienia kolor lub stan, a liczba polubień zwiększa się o 1. |
+| **Oczekiwany rezultat** | Ikona serca zmienia kolor, a liczba polubień zwiększa się o 1. |
 
 ---
 
